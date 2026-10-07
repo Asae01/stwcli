@@ -12,3 +12,9 @@ dependencies = []
 
 [tool.setuptools]
 packages = ["stwcli"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
